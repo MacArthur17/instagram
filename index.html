@@ -1,19 +1,32 @@
 <html>
     <head>
-            <link href="style.css" rel="stylesheet">
+           <link href="style.css" rel="stylesheet">
+           <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
     </head>
 
     <body>
-        <div>
+        <div id="top">
             <!-- logo -->
-            <img src="image/logo.jpg"/>
+            <img src="image/logo.jpg" />
             <!-- 검색창 -->
              <input type="search" value="검색"/>
+             <div>
+                <i class="fas fa-home"></i>
+                <i class="fas fa-paper-plane"></i>
+                <i class="fas fa-compass"></i>
+                <i class="fas fa-heart"></i>
+             </div>
         </div>
+
         <div id="profile">
-            <img src="image/profile.png" width="50px"/>
-            <div>
-                <h2>macarthur180</h2>
+            <div id="profile_pic">
+                    <img class = "circle_pic" src="image/profile.png"/>
+            </div>
+                    
+            <div id="profile_info">          
+                <div id="id">macarthur17
+                    <i class="fas fa-cog"></i>
+                </div>
                 <button>프로필 편집</button>
             </div>
         </div>
@@ -21,19 +34,19 @@
         
         <p>
             <strong>
-                최재현 (choijaehyun)
+                최재현 (choijaehyun) 
             </strong><br/>
             학생
         </p>
         <p>
             <a href="https://github.com/macarthur180"> https://github.com/macarthur180</a>
         </p>
-        <p>
-            <div> 
-                <div>
-                    <div class="highlight"> 
+        
+            <div id = "highlight_area"> 
+                <div class="highlight">
+                    <div class="highlight_pic">
                         <!-- 하이라이트 사진1 -->
-                        <img src="image/hl 1.jpg" height="35px"/>
+                        <img class = "circle_pic" src="image/hl 1.jpg"/>
                     </div>
                     <div> 
                         <!-- 하이라이트 이모티콘1 -->
@@ -41,42 +54,52 @@
                     </div>
                 </div>
                 <div class="highlight"> 
-                    <div>
+                    <div class="highlight_pic">
                         <!-- 하이라이트 사진2 -->
-                        <img src="image/hl 2.jpg" height="35px"/>
+                        <img class = "circle_pic" src="image/hl 2.jpg"/>
                     </div>
                     <div>
                         <!-- 하이라이트 이모티콘2 -->
                          🥰
                     </div>
-
-                </div>
-                
+                </div> 
+                <div></div>
             </div>
-            <div>
-                <div>게시물</br>
+
+
+            <div id = "stat_bar">
+                <div class = "stat">
+                    게시물<br/>
                      133
                 </div>
-                <div>팔로워</br>
+                <div class = "stat">
+                    팔로워<br/>
                      408
                 </div>
-                <div>
-                    팔로우</br>
+                <div class = "stat">
+                    팔로우<br/>
                     189
                 </div>
             </div>
             <div>아이콘이 들어갈 자리</div>
             <div>
-                <!-- 게시물 썸네일이 들어갈 자리 -->
-                <img src="image/thumbnails/1.jpg" width="32%"/>
-                <img src="image/thumbnails/2.jpg" width="32%"/>
-                <img src="image/thumbnails/3.jpg" width="32%"/>
-                <img src="image/thumbnails/4.jpg" width="32%"/>
-                <img src="image/thumbnails/5.jpg" width="32%"/>
-                <img src="image/thumbnails/6.jpg" width="32%"/>
-                <img src="image/thumbnails/7.jpg" width="32%"/>
-                <img src="image/thumbnails/8.jpg" width="32%"/>
-                <img src="image/thumbnails/9.jpg" width="32%"/>
+                <div class="thumbnail_grid">              
+                    <img src="image/thumbnails/1.jpg" class="thumbnail"/>
+                    <img src="image/thumbnails/2.jpg" class="thumbnail"/>
+                    <img src="image/thumbnails/3.jpg" class="thumbnail"/>
+                </div>
+                <div class="thumbnail_grid">
+                    <img src="image/thumbnails/4.jpg" class="thumbnail"/>
+                    <img src="image/thumbnails/5.jpg" class="thumbnail"/>
+                    <img src="image/thumbnails/6.jpg" class="thumbnail"/> 
+                </div>
+                
+                <div class="thumbnail_grid">
+                    <img src="image/thumbnails/7.jpg" class="thumbnail"/>
+                    <img src="image/thumbnails/8.jpg" class="thumbnail"/>
+                    <img src="image/thumbnails/9.jpg" class="thumbnail"/>
+                </div>
+                
 
             </div>
     </body>
