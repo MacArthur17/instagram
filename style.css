@@ -140,3 +140,12 @@ i{
 .selected{
     border-bottom: solid gray 3px;
 }
+
+#profile_info button {
+    border: 2px solid gray;
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 6px; /* 원하면 둥글게 */
+    transition: border-color 0.2s ease; /* 부드럽게 */
+}
